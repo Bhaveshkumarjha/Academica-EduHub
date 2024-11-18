@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> web page </title>
+        <style>
+        body{
+            background-image: url("images.jpg");
+            background-position: fixed;
+            background-size:cover;
+            background-repeat: no-repeat;
+            
+        
+        }
+        h1{
+            color:white;
+            text-align: center;
+            text-transform: uppercase;
+            margin-right: 1000px;
+        }
+        .td{
+            display: flex;
+            text-decoration: none;
+            margin-left: 00px;
+            margin-top: 0px;
+            padding-bottom: 00px;
+            margin-right: 00px;
+        
+        }
+        .td{
+            display: flex;
+            text-decoration: none;
+            color: white; 
+        margin: 00px 00pxp;
+        padding-left: 100px;
+        padding-right: 00px;
+        margin-top: 5px;
+        margin-right: 00px;
+        }
+         li :hover{
+            color:gold;
+        }
+        li a{
+            text-decoration: none;
+            color: white;
+        }
+        .button{
+            color: black;
+            background-color: white;
+            border-radius: 10px;
+        
+        }
+        
+        .src{
+            height: 25px;
+            border-radius: 10px;
+            background-color: white;
+        }
+        .p{
+            color: white;
+            margin-left: 30px;
+            font-size: 20px;
+            margin-bottom: 00px;
+        }
+        .login{
+            text-decoration: none;
+            margin-left: 80px;
+            background-color: orange;
+            height: 40px;
+            width: 120px;
+            border-radius: 20px;
+        }
+        div.login:hover{
+            text-decoration: none;
+            background-color: white;
+        }
+        .form{
+            color: white;
+            width: 250px;
+            height: 380px;
+            background:linear-gradient(to top, rgba(0,0,0,0,8) ,rgba(0,0,0,0,8)) ;
+            position: absolute;
+            top: 60px;
+            left:570px ;
+            border-radius: 10px;
+            padding: 25px;
+            
+        
+        }
+        a.first{
+            padding-bottom: 00px;
+            background-color: transparent;
+        }
+        .submit{
+            margin-left: 50px;
+            margin-top: 20px;
+            height: 30px;
+            width: 80px;
+            border-radius: 20px;
+            background-color: orange;
+        }
+        input{
+            background-color: transparent;
+        }
+        .res{
+            margin-bottom: 20px;
+            text-align: center;
+            margin-left: 10px;
+        }
+        .submit:hover{
+        background-color: white;
+        }
+        .loin.log{
+            text-decoration: none;
+        }
+        @media only screen and (max-width:900px){
+        .td{
+            display: block;
+            flex-direction: column;
+            text-align: center;
+            margin-left: -100px;
+            padding-top: 20px;
+        }
+        .form{
+            flex-direction:row-reverse;
+            text-align: left;
+            margin-left: -450px;
+            margin-top: 900px;
+            color: black;
+        }
+        .button{
+            height: 30px;
+        }
+        }
+        @media only screen and (max-width:242px){
+            .form{
+                margin-top: 600px;
+            }
+        }
+</style>
+<script src="registration.js"></script>
+    </head>
+    <body>
+       
+        
+        <ul class="td">
+            <tr class="td">
+            
+            <li class="td"><a href="index.html">HOME</a</li>
+            <li class="td" ><a href="/bhavesh.html">ABOUT US</a></li>
+            <li class="td" ><a href="cont.html">CONTACT US</a></li>
+            <li class="td"> <a href="search.html"><input  class="src" type="src" placeholder="text in"> <button class="button" type="src">serch </button> </a>
+                <br>
+            </li>
+            
+             
+            </tr>
+        </ul>
+            <div>
+                <h1>WEL COME TO MY WEBSITE DEVELOPING PAGE</h1>
+                </div>         
+<p class="p">if you want to study about website.<br> how to develop a web site <br>or you can also download pdf of
+<br> like java, html,css,javascript,php ,c<br>c++,ethical hacking etc.
+</p>
+<br>
+<button class="login"><a href="Login.html"><div class="log">LOGIN</div></a></button>
+
+<form class="form">
+    <button class="res">
+    For Registration
+    </button>
+    <br>
+ <a class="first">  FIRST NAME:<input type="teXt" placeholder="FIRT NAME" maxlength="20"/></a>
+ <br>
+ LAST NAME:<input type="text" placeholder="LAST NAME"/>
+ <br>
+ E-MAIL: 
+ <br>
+    <input type="email" placeholder="email@gamil.com"/>
+    <br>
+    PASSWORD:<input type="password" placeholder="PASSWORD" maxlength="8" minlength="8"/>
+    <br>
+    PHONE NO:<input type="tel" placeholder="PHONE NUMBER" name="phone" maxlength="10" minlength="10"/>
+    <br>
+  <input class="submit" type="submit" placeholder="SUBMIT" name="SUBMIT"/>
+</form>
+
+    </body>
+</html>
